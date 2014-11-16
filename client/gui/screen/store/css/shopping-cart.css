@@ -8,6 +8,7 @@ html,body {
 }
 
 #zivame-container .mix{
+    box-shadow: 3px 3px 2px 0px #557599;
     cursor: pointer;
     display: none;
     height: 100px;
