@@ -10,3 +10,9 @@ Usage directions-
 
 2. Download node dependencies
 	nmp install or update
+
+3. Start server
+        node <project path>\server\index.js
+
+4. Start client
+        <project path>\client\gui\screen\store\html\store.html
