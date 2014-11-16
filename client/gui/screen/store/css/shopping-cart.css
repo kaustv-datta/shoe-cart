@@ -1,0 +1,21 @@
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+#zivame-container {
+    max-height: 80%;
+}
+
+#zivame-container .mix{
+    cursor: pointer;
+    display: none;
+    height: 100px;
+    margin: 10px;
+    width: 120px;
+}
+
+.thumb-img {
+    height: 100%;
+    width: 100%;
+}

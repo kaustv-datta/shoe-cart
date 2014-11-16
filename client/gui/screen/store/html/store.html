@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zivame Shoe Store</title>
+
+    <meta charset="UTF-8" />
+    <meta name="description" content="A shoe shopping cart" />
+    <meta name="author" content="Kaustav Datta" />
+    <!-- For bootstrap -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../../../core/css/bootstrap/bootstrap-darkly.css" />
+    <link rel="stylesheet" href="../css/shopping-cart.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Shoe Store</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Products</a></li>
+                <li><a href="#">Cart</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="zivame-container" class="container-fluid">
+    <div id="product-container">
+    </div>
+</div>
+
+<script src="../../../core/scripts/alienscripts/js/jquery-2.1.1.min.js"></script>
+<script src="../../../core/scripts/alienscripts/js/bootstrap.js"></script>
+<script src="../scripts/alienscripts/js/jquery.mixitup.js"></script>
+
+<!-- Global Namespace -->
+<script src="../../../core/global/ApplicationContext.js"></script>
+
+<!-- Interactors -->
+<script src="../../../core/interactors/GetCategories.js"></script>
+<script src="../../../core/interactors/GetProducts.js"></script>
+
+<!-- Inhouse Scripts -->
+<script src="../scripts/inhousescripts/js/store.js"></script>
+<script src="../scripts/inhousescripts/js/categories.js"></script>
+<script src="../scripts/inhousescripts/js/products.js"></script>
+
+<!-- Event Handlers -->
+<script src="../scripts/inhousescripts/js/storeEventHandlers.js"></script>
+
+</body>
+</html>
