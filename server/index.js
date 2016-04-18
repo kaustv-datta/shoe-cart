@@ -69,3 +69,63 @@ db.once('open', function callback () {
     });
 
 });
+
+/* Softcel dummy text
+
+
+INPUT TYPES
+-----------
+
+button		[disabled]
+checkbox	[checked]
+color		[disabled]
+date		[disabled]
+datetime-local	[disabled]
+email		[disabled, pattern]
+file		[accept, disabled]
+month		[disabled]
+number		[disabled]
+password	[disabled, pattern]
+radio		[checked, disabled]
+range		[disabled]
+tel		[disabled, pattern]
+text		[disabled, pattern]
+time		[disabled]
+url		[disabled, pattern]
+week		[disabled]
+
+ attributes - [accept, checked, disabled, pattern, required]
+
+INPUTS FOR POC
+--------------
+
+button
+chechbox
+select
+date
+number
+
+
+INPUT STATES
+------------
+
+email - enabled/disabled/value/valid/invalid/regex
+chechbox - enabled/disabled/checked/unchecked/label
+select - enabled/disabled/options/multi-select/single-select
+date - enabled/disabled/date(mm/dd/yyyy)
+number - enabled/disabled/min/max		+ hidden/visible (FOR ALL INPUTS)
+
+
+INPUT EVENTS (custom api can be provided)
+-----------------------
+
+
+email - on emptied / on value change / on valid value / on invalid value / on enabled / on disabled
+checkbox - on checked / on un-checked / on enabled / on disabled
+select - on value(s) selected / on value change / on enabled / on disabled
+date - on valid value / on value change / on enabled / on disabled
+number - on value change / on enabled / on disabled
+
+
+
+*/
